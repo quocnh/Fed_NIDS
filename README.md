@@ -7,9 +7,9 @@ https://usf.box.com/s/3hj01f8hslsdazoqmr03tgmbxqk4oroy
 
 ## Paper abstract
 
-**<p align="center">Figure 1: Network traffic anomaly detection framework using autoencoders.</p>**
+**<p align="center">Figure 1: Proposed FedNIDS Framework.</p>**
 <p align="center">
-<img src="https://github.com/quocnh/Fed_NIDS/blob/main/fig_fednids.png" style="max-width: 90%;"/>
+  <img src="https://github.com/quocnh/Fed_NIDS/blob/main/fig_fednids.png" width="90%"/>
 </p>
 
 Network intrusion detection systems (NIDS) play a critical role in discerning between benign and malicious network traffic. Deep neural networks (DNNs), anchored on large and diverse data sets, exhibit promise in enhancing the detection accuracy of NIDS by capturing intricate network traffic patterns. However, safeguarding distributed computer networks against emerging cyber threats is increasingly challenging. Despite the abundance of diverse network data, decentralization persists due to data privacy and security concerns. This confers an asymmetric advantage to adversaries, as distributed networks face the formidable task of securely and efficiently sharing non-independently and identically distributed data to counter cyber-attacks. To address this, we propose the Federated NIDS (\emph{FedNIDS}), a novel two-stage framework that combines the power of federated learning and DNNs. It aims to enhance the detection accuracy of known attacks, robustness and resilience to novel attack patterns, and privacy preservation, using packet-level granular data. In the first stage, a global DNN model is collaboratively trained on distributed data, and the second stage adapts it to novel attack patterns. Our experiments on real-world intrusion data sets demonstrate the effectiveness of \emph{FedNIDS} by achieving an average F1 score of 0.97 across distributed networks and identifying novel attacks within four rounds of communication.
