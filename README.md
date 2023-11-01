@@ -7,7 +7,7 @@ https://usf.box.com/s/3hj01f8hslsdazoqmr03tgmbxqk4oroy
 
 ## Paper abstract
 
-**<p align="center">Figure: Proposed FedNIDS Framework.</p>**
+**<p align="center">Figure 2: Proposed FedNIDS Framework.</p>**
 <p align="center">
   <img src="https://github.com/quocnh/Fed_NIDS/blob/main/fig_fednids.png" width="90%"/>
 </p>
