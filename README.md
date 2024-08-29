@@ -43,8 +43,8 @@ If you find this repository useful in your research, please cite the following a
 @article{
   title={FedNIDS: A Federated Learning Framework for Packet-based Network Intrusion Detection System},
   author={Quoc H. Nguyen∗, Soumyadeep Hore∗, Ankit Shah, Trung Le, and Nathaniel D. Bastian},
-  journal={},
-  year={2023}
+  journal={ACM Digital Threats: Research and Practice},
+  year={2024}
 }
 
 ```
