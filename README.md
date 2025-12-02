@@ -40,11 +40,22 @@ Network intrusion detection systems (NIDS) play a critical role in discerning be
 If you find this repository useful in your research, please cite the following articles as: 
 
 ```
-@article{
-  title={FedNIDS: A Federated Learning Framework for Packet-based Network Intrusion Detection System},
-  author={Quoc H. Nguyen∗, Soumyadeep Hore∗, Ankit Shah, Trung Le, and Nathaniel D. Bastian},
-  journal={ACM Digital Threats: Research and Practice},
-  year={2024}
+@article{10.1145/3696012,
+author = {Nguyen, Quoc H. and Hore, Soumyadeep and Shah, Ankit and Le, Trung and Bastian, Nathaniel D.},
+title = {FedNIDS: A Federated Learning Framework for Packet-Based Network Intrusion Detection System},
+year = {2025},
+issue_date = {March 2025},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {6},
+number = {1},
+url = {https://doi.org/10.1145/3696012},
+doi = {10.1145/3696012},
+abstract = {Network intrusion detection systems (NIDS) play a critical role in discerning between benign and malicious network traffic. Deep neural networks (DNNs), anchored on large and diverse datasets, exhibit promise in enhancing the detection accuracy of NIDS by capturing intricate network traffic patterns. However, safeguarding distributed computer networks against emerging cyber threats is increasingly challenging. Despite the abundance of diverse network data, decentralization persists due to data privacy and security concerns. This confers an asymmetric advantage to adversaries, as distributed networks face the formidable task of securely and efficiently sharing non-independently and identically distributed data to counter cyber-attacks. To address this, we propose the federated NIDS (FedNIDS), a novel two-stage framework that combines the power of federated learning and DNNs. It aims to enhance the detection accuracy of known attacks, robustness and resilience to novel attack patterns, and privacy preservation, using packet-level granular data. In the first stage, a global DNN model is collaboratively trained on distributed data, and the second stage adapts it to novel attack patterns. Our experiments on real-world intrusion datasets demonstrate the effectiveness of FedNIDS by achieving an average F1 score of 0.97 across distributed networks and quickly disseminating novel attack information within four rounds of communication.},
+journal = {Digital Threats},
+month = feb,
+articleno = {4},
+numpages = {23},
+keywords = {Federated learning, network intrusion detection systems, distributed and private network data, packet-based NIDS, novel attack detection}
 }
-
 ```
